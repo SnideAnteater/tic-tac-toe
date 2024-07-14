@@ -1,8 +1,8 @@
 "use client";
-import React, { useState } from "react";
+import React, { SetStateAction, useState } from "react";
 import Tile from "./Tile";
 
-const Tiles = ({ onWinFunction }) => {
+const Tiles = (onWinFunction: any) => {
   const boardArray = [
     { id: 0, player: "" },
     { id: 1, player: "" },
